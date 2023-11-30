@@ -1,0 +1,46 @@
+<!-- balise ouvrante -->
+<foo>
+    bar baz
+    <!-- balise fermante -->
+</foo>
+
+<!-- balise auto-fermante -->
+<bar />
+<bar>
+
+<!-- saut de ligne, balise auto-fermante -->
+<br />
+<br>
+
+<!-- image, balise auto-fermante -->
+<img src="image.jpg" alt="" />
+<img src="" alt="">
+
+<!-- attributs -->
+<foo cle="valeur"></foo>
+<foo id="baz"></foo>
+<foo class="identifiant-partage"></foo>
+<foo class="identifiant-partage"></foo>
+
+<!-- entités html -->
+<p>
+    <!-- lower than, plus petit que -->
+    123 &lt; 234
+    <!-- greater than, plus grand que -->
+    234 &gt; 123
+    <!-- quotes, guillemets -->
+    foo &quot;bar&quot; baz
+</p>
+
+<!-- imbrication de balises -->
+<!-- indentation -->
+<foo>
+    <bar>
+        <baz>
+            lorem ipsum
+        </baz>
+        <lorem>
+            ipsum
+        </lorem>
+    </bar>
+</foo>

@@ -1,0 +1,36 @@
+/*
+commentaires
+multi-lignes
+*/
+selecteur {
+    /* règles */
+    cle: valeur;
+    cle2: valeur2;
+}
+
+/* sélecteur par balise */
+foo {
+    cle: valeur;
+}
+
+/* sélecteur par classe */
+.bar {
+    cle: valeur;
+}
+
+/* sélecteur par id */
+#baz {
+    cle: valeur;
+}
+
+/* sélecteur par descendance */
+/* sélectionne toutes les balises baz contenues dans une balise foo */
+foo baz {
+    cle: valeur;
+}
+
+/* sélecteur par descendance directe */
+/* sélectionne toutes les balises bar directement contenues dans une balise foo */
+foo > bar {
+    cle: valeur;
+}
